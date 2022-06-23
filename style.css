@@ -1,0 +1,124 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("bg.jpg") no-repeat center top/cover;
+  font-size: medium;
+  color: azure;
+  height: 1000px;
+}
+.left {
+  display: inline-block;
+  /* border: 2px solid blue; */
+  position: absolute;
+  left: 100px;
+  top: 0px;
+  /* float: left; */
+}
+.left img {
+  width: 70px;
+  display: block;
+  margin: auto;
+  filter: invert(100%);
+}
+.left div {
+  text-align: center;
+  font-size: large;
+}
+.center {
+  /* display: inline-block;  */
+  font-size: 18px;
+  width: 50%;
+  margin: 34px auto;
+  /* border: 2px solid red; */
+}
+.right {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+  /* border: 2px solid green; */
+  /* display: inline-block; */
+  /* float: right; */
+}
+.navbar li {
+  display: inline-block;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  padding: 24px 25px;
+}
+.navbar li a:hover,
+.navbar li a:active {
+  text-decoration: underline;
+  color: rgb(151, 151, 151);
+}
+.btn {
+  margin: 0px 10px;
+  background-color: black;
+  color: white;
+  padding: 6px 16px;
+  border: 1px solid white;
+  border-radius: 13px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.header div {
+  align-items: center;
+}
+.container {
+  width: 86vw;
+  margin: 70px auto;
+  /* border: 2px solid green; */
+  display: block;
+}
+.item {
+  margin: 10px;
+}
+#item1 {
+  margin-top: 84px;
+}
+p {
+  font-size: 25px;
+  font-weight: lighter;
+  text-align: end;
+  line-height: 1.5;
+  letter-spacing: 5%;
+}
+#item2 {
+  /* border: 2px solid yellow; */
+  width: 40%;
+  height: 400px;
+}
+h1 {
+  text-align: center;
+}
+.form {
+  /* border: 2px solid white; */
+  width: 380px;
+  margin: auto;
+  padding: 0px 25px;
+}
+.form-group input {
+  margin: 15px;
+  width: 350px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  background-color: black;
+  border: 1px solid white;
+  text-align: center;
+}
+.form-group input:hover {
+  background-color: white;
+}
+#item2 button {
+  display: block;
+  width: 100px;
+  margin: auto;
+}
